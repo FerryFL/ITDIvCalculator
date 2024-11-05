@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kotak{
+  padding: 50px;
+  width: 90%;
+  min-height: 700px;
+  
+  background-color: black;
+}
+
+.calculator .form button,.calculator .form input{
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.calculator .form button{
+  background-color: grey;
+  border-radius: 30px;
+}
+
+.form .display{
+  background-color: grey;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 70px;
+  box-shadow: none;
+}
+
+.operator{
+  padding: 10px;
+  background-color: black;
+}
+
+.form{
+  background-color: black;
+}
+
+.calculator .form button.buttonL{
+  width: 130px;
+}
+
+.historyContainer{
+  /* background-color: yellow; */
+  padding: 10px;
+  background-color: grey;
+}
+
+.history {
+  max-height: 70px;
+  overflow-y: auto;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.formTicket{
+  width: 100%;
+  /* background-color: yellow; */
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  padding: 30px;
+  /* background-color: cyan;  */
+}
+
+.top label{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.block{
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  padding: 10px;
+}
+
+.block1{
+  width: 100%;
+  padding: 10px;
+}
+
+.block2{
+  width: 100%;
+  padding: 10px;
+}
+
+.kiri{
+  width: 50%;
+  height: 100%;
+  
+}
+
+.block1 input, .block input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  outline: none;
+}
+
+.block1 input:focus, .block input:focus {
+  border: 2px solid orange;
+}
+
+
+.nameKiri{
+  width: 50%;
+}
+
+.nameKiri input{
+  width: 90%;
+}
+
+.nameKanan{
+  width: 50%;
+}
+
+.kiri .Topic{
+  border: 1px dashed white ;
+  height: 160px;
+  /* background-color: cyan; */
+  padding: 20px;
+  text-align: start;
+}
+
+.kanan{
+  width: 50%;
+  height: 100%;
+}
+
+textarea{
+  width: 100%;
+  background-color: transparent;
+  height: 375px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+textarea:focus{
+  border: 2px solid orange;
+  outline: none;
+}
+
+.button{
+  width: 100%;
+  padding-right: 30px;
+  text-align: end;
+}
+
+.button button{
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background-color: transparent;
+}
+
+.button button:hover{
+  cursor: pointer;
+}
+
+.send{
+  background-color: orange ;
+}
+
+.success{
+  width: 100%;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.success h1{
+  color: orange;
+}
+
+.success button {
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background-color: transparent;
+}
+
+.success button:hover {
+  cursor: pointer;
+}
