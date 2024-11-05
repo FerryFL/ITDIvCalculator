@@ -1,0 +1,1 @@
+Bisa untuk menginstall npm nya terlebih dahulu ( npm install )
